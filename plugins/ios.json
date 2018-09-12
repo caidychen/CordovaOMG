@@ -9,6 +9,9 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "au.com.questps.hello"
+    },
+    "cordova-plugin-battery-status": {
+      "PACKAGE_NAME": "au.com.questps.hello"
     }
   },
   "dependent_plugins": {}
