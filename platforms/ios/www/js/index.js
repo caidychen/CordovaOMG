@@ -29,6 +29,7 @@ var app = {
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
         window.addEventListener("batterystatus", onBatteryStatus, false);
+        document.getElementById("cordovaDevice").addEventListener("click", cordovaDevice);
     },
 
     // Update DOM on a Received Event
@@ -43,8 +44,16 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+
 function onBatteryStatus(info) {
     alert("BATTERY STATUS:  Level: " + info.level + " isPlugged: " + info.isPlugged);
 }
 
+function cordovaDevice() {
+    alert("Cordova version: " + device.cordova + "\n" +
+          "Device model: " + device.model + "\n" +
+          "Device platform: " + device.platform + "\n" +
+          "Device UUID: " + device.uuid + "\n" +
+          "Device version: " + device.version);
+}
 app.initialize();

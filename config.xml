@@ -25,4 +25,5 @@
     </platform>
     <engine name="ios" spec="~4.5.5" />
     <plugin name="cordova-plugin-battery-status" spec="^2.0.2" />
+    <plugin name="cordova-plugin-device" spec="^2.0.2" />
 </widget>

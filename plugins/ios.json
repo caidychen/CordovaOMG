@@ -12,6 +12,9 @@
     },
     "cordova-plugin-battery-status": {
       "PACKAGE_NAME": "au.com.questps.hello"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "au.com.questps.hello"
     }
   },
   "dependent_plugins": {}
