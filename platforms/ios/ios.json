@@ -16,6 +16,40 @@
               "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
               "count": 1
             }
+          ],
+          "/widget": [
+            {
+              "xml": "<feature name=\"CloudEftposGap\"><param name=\"ios-package\" value=\"CloudEftposGap\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "*-Info.plist": {
+        "parents": {
+          "UIBackgroundModes": [
+            {
+              "xml": "<array><string>bluetooth-central</string></array>",
+              "count": 1
+            }
+          ],
+          "UIRequiredDeviceCapabilities": [
+            {
+              "xml": "<array><string>bluetooth-le</string></array>",
+              "count": 1
+            }
+          ],
+          "UIViewControllerBasedStatusBarAppearance": [
+            {
+              "xml": "<false />",
+              "count": 1
+            }
+          ],
+          "UIStatusBarHidden": [
+            {
+              "xml": "<true />",
+              "count": 1
+            }
           ]
         }
       }
@@ -29,6 +63,9 @@
       "PACKAGE_NAME": "au.com.questps.hello"
     },
     "cordova-plugin-device": {
+      "PACKAGE_NAME": "au.com.questps.hello"
+    },
+    "au.com.questps.cloudeftpossdk.gap": {
       "PACKAGE_NAME": "au.com.questps.hello"
     }
   },
@@ -49,11 +86,20 @@
       "clobbers": [
         "device"
       ]
+    },
+    {
+      "id": "au.com.questps.cloudeftpossdk.gap.cloudeftpossdk",
+      "file": "plugins/au.com.questps.cloudeftpossdk.gap/www/cloudeftpos.js",
+      "pluginId": "au.com.questps.cloudeftpossdk.gap",
+      "clobbers": [
+        "cloudeftpos"
+      ]
     }
   ],
   "plugin_metadata": {
     "cordova-plugin-whitelist": "1.3.3",
     "cordova-plugin-battery-status": "2.0.2",
-    "cordova-plugin-device": "2.0.2"
+    "cordova-plugin-device": "2.0.2",
+    "au.com.questps.cloudeftpossdk.gap": "1.0.0"
   }
 }

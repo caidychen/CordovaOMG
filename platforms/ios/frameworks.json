@@ -1,0 +1,11 @@
+{
+    "CoreBluetooth.framework": 1,
+    "UIKit.framework": 1,
+    "CoreText.framework": 1,
+    "Foundation.framework": 1,
+    "MessageUI.framework": 1,
+    "CoreLocation.framework": 1,
+    "QuartzCore.framework": 1,
+    "libz.dylib": 1,
+    "libstdc++.dylib": 1
+}

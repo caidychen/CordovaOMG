@@ -15,6 +15,18 @@
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
 		231B98FB93E9491F80E60DB4 /* CDVBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = E09A0A10A42E489496FA766C /* CDVBattery.m */; };
 		AC6F59A03C9B45A18C3207C8 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C62C7989F239479B8BBC99E9 /* CDVDevice.m */; };
+		891A4A5449B24F58A458BD29 /* CloudEftposGap.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0AC5D2D70A45C3BC151627 /* CloudEftposGap.m */; };
+		8836804887D24D1A9AF09767 /* libCloudEftposSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2527EEBBD278434682D10AFD /* libCloudEftposSDK.a */; };
+		A56D7C7F8BB44144BC7CD9C7 /* CloudEftposSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5C5C2CE7009D423A8F4D32DA /* CloudEftposSDKResources.bundle */; };
+		8323964ED34344FE9466F3D7 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47E86ECFBBC4680A400C37F /* CoreBluetooth.framework */; };
+		820FEE14156C4FFB8E4F16EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F89668B0A443A3A0F5BAE4 /* UIKit.framework */; };
+		AD4A09DBC0EF4F0391F3F11F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9979E8CBDC43849281CD56 /* CoreText.framework */; };
+		072C1F0288844151ADE92BB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F382F7442348C5954B9F6D /* Foundation.framework */; };
+		8C770EE4A90B4628A3A81640 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A253894427D247EDB2A6A307 /* MessageUI.framework */; };
+		D2F0A0B3228545B585CDE337 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43EF47D4DF2F4C46898B44F3 /* CoreLocation.framework */; };
+		45D66B9F37E44BDA8EC79403 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6D8CE30A764F66A5E580CA /* QuartzCore.framework */; };
+		EF6CC23A031F4F6FB5A9F563 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D24D43E5138B4E23B8F27BF0 /* libz.dylib */; };
+		7E16AE9A7C7F4806A2F7F85D /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3B714DFB2B4F0688CAA134 /* libstdc++.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +78,20 @@
 		59277033EECF498BB50C7FBF /* CDVBattery.h */ = {isa = PBXFileReference; name = "CDVBattery.h"; path = "cordova-plugin-battery-status/CDVBattery.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		C62C7989F239479B8BBC99E9 /* CDVDevice.m */ = {isa = PBXFileReference; name = "CDVDevice.m"; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		1FBEDA46EB6747F2B5DF6C6A /* CDVDevice.h */ = {isa = PBXFileReference; name = "CDVDevice.h"; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		CE0AC5D2D70A45C3BC151627 /* CloudEftposGap.m */ = {isa = PBXFileReference; name = "CloudEftposGap.m"; path = "au.com.questps.cloudeftpossdk.gap/CloudEftposGap.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		2527EEBBD278434682D10AFD /* libCloudEftposSDK.a */ = {isa = PBXFileReference; name = "libCloudEftposSDK.a"; path = "HelloWorld/Plugins/au.com.questps.cloudeftpossdk.gap/libCloudEftposSDK.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		F522B62920B74CC99FD2F6A4 /* CloudEftposSDK.h */ = {isa = PBXFileReference; name = "CloudEftposSDK.h"; path = "au.com.questps.cloudeftpossdk.gap/CloudEftposSDK.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		5B8AA7CC40EE4092A8E050FC /* CloudEftposGap.h */ = {isa = PBXFileReference; name = "CloudEftposGap.h"; path = "au.com.questps.cloudeftpossdk.gap/CloudEftposGap.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		5C5C2CE7009D423A8F4D32DA /* CloudEftposSDKResources.bundle */ = {isa = PBXFileReference; name = "CloudEftposSDKResources.bundle"; path = "CloudEftposSDKResources.bundle"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.plug-in; explicitFileType = undefined; includeInIndex = 0; };
+		F47E86ECFBBC4680A400C37F /* CoreBluetooth.framework */ = {isa = PBXFileReference; name = "CoreBluetooth.framework"; path = "System/Library/Frameworks/CoreBluetooth.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		08F89668B0A443A3A0F5BAE4 /* UIKit.framework */ = {isa = PBXFileReference; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		AA9979E8CBDC43849281CD56 /* CoreText.framework */ = {isa = PBXFileReference; name = "CoreText.framework"; path = "System/Library/Frameworks/CoreText.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		26F382F7442348C5954B9F6D /* Foundation.framework */ = {isa = PBXFileReference; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		A253894427D247EDB2A6A307 /* MessageUI.framework */ = {isa = PBXFileReference; name = "MessageUI.framework"; path = "System/Library/Frameworks/MessageUI.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		43EF47D4DF2F4C46898B44F3 /* CoreLocation.framework */ = {isa = PBXFileReference; name = "CoreLocation.framework"; path = "System/Library/Frameworks/CoreLocation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		BC6D8CE30A764F66A5E580CA /* QuartzCore.framework */ = {isa = PBXFileReference; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		D24D43E5138B4E23B8F27BF0 /* libz.dylib */ = {isa = PBXFileReference; name = "libz.dylib"; path = "usr/lib/libz.dylib"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = compiled.mach-o.dylib; explicitFileType = undefined; includeInIndex = 0; };
+		0F3B714DFB2B4F0688CAA134 /* libstdc++.dylib */ = {isa = PBXFileReference; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = compiled.mach-o.dylib; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +100,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+				8836804887D24D1A9AF09767 /* libCloudEftposSDK.a in Frameworks */,
+				8323964ED34344FE9466F3D7 /* CoreBluetooth.framework in Frameworks */,
+				820FEE14156C4FFB8E4F16EA /* UIKit.framework in Frameworks */,
+				AD4A09DBC0EF4F0391F3F11F /* CoreText.framework in Frameworks */,
+				072C1F0288844151ADE92BB8 /* Foundation.framework in Frameworks */,
+				8C770EE4A90B4628A3A81640 /* MessageUI.framework in Frameworks */,
+				D2F0A0B3228545B585CDE337 /* CoreLocation.framework in Frameworks */,
+				45D66B9F37E44BDA8EC79403 /* QuartzCore.framework in Frameworks */,
+				EF6CC23A031F4F6FB5A9F563 /* libz.dylib in Frameworks */,
+				7E16AE9A7C7F4806A2F7F85D /* libstdc++.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +172,7 @@
 				3047A50E1AB8057F00498E2A /* config */,
 				8D1107310486CEB800E47090 /* HelloWorld-Info.plist */,
 				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
+				5C5C2CE7009D423A8F4D32DA /* CloudEftposSDKResources.bundle */,
 			);
 			name = Resources;
 			path = HelloWorld/Resources;
@@ -144,6 +181,16 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2527EEBBD278434682D10AFD /* libCloudEftposSDK.a */,
+				F47E86ECFBBC4680A400C37F /* CoreBluetooth.framework */,
+				08F89668B0A443A3A0F5BAE4 /* UIKit.framework */,
+				AA9979E8CBDC43849281CD56 /* CoreText.framework */,
+				26F382F7442348C5954B9F6D /* Foundation.framework */,
+				A253894427D247EDB2A6A307 /* MessageUI.framework */,
+				43EF47D4DF2F4C46898B44F3 /* CoreLocation.framework */,
+				BC6D8CE30A764F66A5E580CA /* QuartzCore.framework */,
+				D24D43E5138B4E23B8F27BF0 /* libz.dylib */,
+				0F3B714DFB2B4F0688CAA134 /* libstdc++.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -174,6 +221,9 @@
 				59277033EECF498BB50C7FBF /* CDVBattery.h */,
 				C62C7989F239479B8BBC99E9 /* CDVDevice.m */,
 				1FBEDA46EB6747F2B5DF6C6A /* CDVDevice.h */,
+				CE0AC5D2D70A45C3BC151627 /* CloudEftposGap.m */,
+				F522B62920B74CC99FD2F6A4 /* CloudEftposSDK.h */,
+				5B8AA7CC40EE4092A8E050FC /* CloudEftposGap.h */,
 			);
 			name = Plugins;
 			path = HelloWorld/Plugins;
@@ -270,6 +320,7 @@
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
+				A56D7C7F8BB44144BC7CD9C7 /* CloudEftposSDKResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +354,7 @@
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				231B98FB93E9491F80E60DB4 /* CDVBattery.m in Sources */,
 				AC6F59A03C9B45A18C3207C8 /* CDVDevice.m in Sources */,
+				891A4A5449B24F58A458BD29 /* CloudEftposGap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +391,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_NAME = HelloWorld;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/HelloWorld/Plugins/au.com.questps.cloudeftpossdk.gap\"",
+				);
 			};
 			name = Debug;
 		};
@@ -362,6 +418,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_NAME = HelloWorld;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/HelloWorld/Plugins/au.com.questps.cloudeftpossdk.gap\"",
+				);
 			};
 			name = Release;
 		};

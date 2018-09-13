@@ -1,0 +1,28 @@
+{
+  "name": "cloudeftpos",
+  "version": "1.0.0",
+  "description": "Cloud Eftpos SDK for PhoneGap",
+  "cordova": {
+    "id": "au.com.questps.cloudeftpossdk.gap",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "keywords": [
+    "quest",
+    "eftpos",
+    "cloudeftpos",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "",
+  "license": "Usage of this SDK is subject to any limitations and requirements\n      described by your commercial agreement with Quest Payment Systems Pty Ltd.\n      Usage of this SDK without prior approval is forbidden."
+}

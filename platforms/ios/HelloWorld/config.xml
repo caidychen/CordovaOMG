@@ -55,4 +55,7 @@
     <feature name="Device">
         <param name="ios-package" value="CDVDevice" />
     </feature>
+    <feature name="CloudEftposGap">
+        <param name="ios-package" value="CloudEftposGap" />
+    </feature>
 </widget>
