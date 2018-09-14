@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="LastTenderIncomplete">前回の会計が正しく終了しませんでした。リカバリーが必要です。</string>
+    <string name="RecoverText">デバイスに接続できない場合は、端末のみでリカバリーできます。</string>
+    <string name="RecoverWithoutMicroPay">端末のみでリカバリーする</string>
+    <string name="SerialNumber">ID</string>
+    <string name="SlideToCancel">キャンセルする</string>
+    <string name="TurnOnMicroPay">デバイスの電源を入れてください</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ホームへ移動"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"上へ移動"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"その他のオプション"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完了"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"アプリの選択"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"OFF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ON"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"検索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"検索キーワード"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"検索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"音声検索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"共有"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>と共有"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <string name="approved">承認されました</string>
+    <string name="ble_not_supported">BLEはサポートされていません</string>
+    <string name="button_scan">デバイスをスキャンする</string>
+    <string name="cancel">キャンセル</string>
+    <string name="checkForUpdates">デバイスをアップデートする</string>
+    <string name="clear">クリア</string>
+    <string name="dark_transaction_amountValue_text">¥0</string>
+    <string name="dark_transaction_cancel_trans_button_text">キャンセルL</string>
+    <string name="dark_transaction_cashoutValue_text">+Cashout: $0.00</string>
+    <string name="dark_transaction_slider_text_text">スワイプでキャンセルする</string>
+    <string name="dark_transaction_tipValue_text">+Tips: $0.00</string>
+    <string name="device_list_ap3_name">AP3</string>
+    <string name="device_list_bluetooth_failed_message">デバイスを再スキャンしています。\nスキャンが続けて失敗する場合は、Bluetoothをオフにしてからまたオンにしてください。</string>
+    <string name="device_list_bluetooth_failed_title">Bluetoothエラーが発生しました</string>
+    <string name="device_list_connection_failed_message">接続中にエラーが発生しました</string>
+    <string name="device_list_connection_failed_title">接続に失敗しました</string>
+    <string name="device_list_informational_label">デバイスを探索中です</string>
+    <string name="device_list_location_permission">デバイスに接続するために端末の位置情報のアクセスが必要です。</string>
+    <string name="device_list_location_permission_denied">デバイスに接続するために端末の位置情報のアクセスが必要です。\nアンドロイドの設定アプリで位置情報のアクセスを許可してください。</string>
+    <string name="device_list_location_permission_denied_error">端末の位置情報へのアクセスが許可されませんでした。</string>
+    <string name="device_list_menu_title">探索中です</string>
+    <string name="device_list_mt330_name">MT330</string>
+    <string name="device_list_ok">OK</string>
+    <string name="device_list_pairing_message">ペアリング中です</string>
+    <string name="device_list_pairing_title">ペアリング中です</string>
+    <string name="done">終了する</string>
+    <string name="error">エラー</string>
+    <string name="error_bluetooth_not_supported">Bluetoothはサポートされていません</string>
+    <string name="none_found">デバイスが見つかりませんでした</string>
+    <string name="none_paired">デバイスがペアリングされていません</string>
+    <string name="ok">OK</string>
+    <string name="pairMicroPay">デバイスを選ぶ</string>
+    <string name="popup_no">いいえ</string>
+    <string name="popup_yes">はい</string>
+    <string name="receipt">レシート</string>
+    <string name="recover_transaction_status_message_text">処理中です</string>
+    <string name="refundInProgress">払い戻し中です</string>
+    <string msgid="146198913615257606" name="search_menu_title">"検索"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="tender_amount">会計:</string>
+    <string name="tender_cancel_button">キャンセル</string>
+    <string name="tender_cancelling_button">キャンセル中です</string>
+    <string name="tender_swipe_to_cancel">スワイプでキャンセルする</string>
+    <string name="title_connected_to"><ns1:g id="device_name">%1$s</ns1:g> に接続中です</string>
+    <string name="title_connecting">接続中です</string>
+    <string name="title_not_connected">接続されていません</string>
+    <string name="tms_update_begin_update_text">アップデートを始める</string>
+    <string name="tms_update_state_text"/>
+    <string name="tms_update_tms_status_text">- / -</string>
+    <string name="tms_update_tms_update_text_text">アップデートを確認中です</string>
+    <string name="tms_update_warning_text">デバイスをオンにし、電源に接続して下さい。端末のBluetooth範囲内に置いてください。</string>
+    <string name="transactionInProgress">会計中です</string>
+    <string name="transaction_amountValue_text">¥0</string>
+    <string name="transaction_amount_text">合計：</string>
+    <string name="transaction_cashoutValue_text">¥0</string>
+    <string name="transaction_recovery_attempt_to_leave_toast">結果をリカバリー中です。しばらくお待ちください。</string>
+    <string name="transaction_recovery_card_reader_warning">デバイスの接続状態を確認してください。</string>
+    <string name="transaction_recovery_connected">接続されています	</string>
+    <string name="transaction_recovery_connecting">接続中です	</string>
+    <string name="transaction_recovery_disconnected">切断されました</string>
+    <string name="transaction_recovery_title">リカバリー</string>
+    <string name="transaction_tipValue_text">¥0</string>
+    <string name="update_tms_state_initial">アップデートは最大１５分ほど時間が掛かります。アップデートを始める前にデバイスを電源に接続して下さい</string>
+    <string name="update_tms_status_counter">%1$s/%2$s</string>
+    <string name="update_update_text_checking">アップデートを確認中です</string>
+    <string name="update_update_text_complete">アップデートが完了しました</string>
+    <string name="update_update_text_initial">アップデートの準備ができました</string>
+    <string name="updatingMicroPay">デバイスアップデート</string>
+    <string name="wedge_api_pairing_dialog_message">デバイスをオーソライズ中です</string>
+    <string name="wedge_api_pairing_dialog_title">ペアリング中です</string>
+    <string name="wedge_api_refund_passcode_dialog_button">OK</string>
+    <string name="wedge_api_refund_passcode_dialog_cancel">キャンセル</string>
+    <string name="wedge_api_refund_passcode_dialog_message">払い戻しパスコードを入力してください</string>
+    <string name="wedge_api_refund_passcode_dialog_title">払い戻しパスコード</string>
+</resources>
