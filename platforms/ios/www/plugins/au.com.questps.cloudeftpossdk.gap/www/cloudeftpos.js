@@ -14,6 +14,7 @@ function TransactionRequest(transactionType, posReference, amount) {
 TransactionRequest.PURCHASE = 1;
 TransactionRequest.REFUND = 2;
 
+Array.prototype.isArray = true;
 /**
  * Initialises the Cloud EFTPOS SDK
  * @param {boolean} productionMode - Set the SDK to production mode
@@ -29,6 +30,128 @@ function CloudEftposSDK(productionMode, onSDKLoaded) {
          "CloudEftposGap",
          "init",
          [productionMode]);
+}
+
+/**
+ *  Verifies that user's iOS Device is JailBroken
+ *  @param {function({boolean} isJailBroken)} onCompletion
+ *  - False if user's deivce has not been jailbroken, otherwise true
+ */
+CloudEftposSDK.prototype.isJailBroken = function(onCompletion){
+  onCompletion    = typeof onCompletion !== 'undefined' ? onCompletion : function() {};
+  exec(function() { onCompletion(true); },
+       function() { onCompletion(false); },
+       "CloudEftposGap",
+       "isJailBroken",
+       []);
+}
+
+/**
+ *  Sets the host of the SDK to use the specified region code.
+ *  @param regionCode The 2 character region code for the preferred region.
+ *  See the full list of available regions in the SDK documentation.
+ *  Defaults to "au" (Australia)
+ *  This value is persistent, so once it is set it only needs to be called
+ *  again to change the value (which should generally not happen!)
+ */
+CloudEftposSDK.prototype.setHostRegion = function(regionCode) {
+  exec(null,
+       null,
+       "CloudEftposGap",
+       "setHostRegion",
+       [regionCode]);
+}
+
+/**
+ *  Begins the discovery process for connecting to the last
+ *  connected device. If the device hasn't been previously paired nothing
+ *  will happen.
+ */
+CloudEftposSDK.prototype.connectDevice = function() {
+  exec(null,
+       null,
+       "CloudEftposGap",
+       "connectDevice",
+       []);
+}
+
+/*!
+ *  Disconnects the device without unpairing it. Automatic
+ *  device discovery will be disabled until connectDevice is called.
+ *  @param {function({boolean} success)} onCompletion
+ *  - False if there was no device connected, otherwise true
+ */
+CloudEftposSDK.prototype.disconnectDevice = function(onCompletion) {
+  onCompletion    = typeof onCompletion !== 'undefined' ? onCompletion : function() {};
+  exec(function() { onCompletion(true); },
+       function() { onCompletion(false); },
+       "CloudEftposGap",
+       "disconnectDevice",
+       []);
+}
+
+/*!
+ *  Overrides the available payment termanal types based on
+ *  the supplied codes.
+ *  @param terminalCodes The available terminals by code.
+ */
+CloudEftposSDK.prototype.setSupportedPaymentTerminals = function(terminalCodes) {
+  terminalCodes = terminalCodes.isArray ? terminalCodes : []
+  exec(null,
+       null,
+       "CloudEftposGap",
+       "setSupportedPaymentTerminals",
+       terminalCodes);
+}
+
+/*!
+ *  Adds the provided terminal type to the list of available
+ *  terminals.
+ *  @param terminalCode The terminal code.
+ */
+CloudEftposSDK.prototype.addSupportedPaymentTerminals = function(terminalCode) {
+  exec(null,
+       null,
+       "CloudEftposGap",
+       "addSupportedPaymentTerminals",
+       [terminalCode]);
+}
+
+/*!
+ *  Verifies that SDK is running in Developer Mode
+ *  @param {function({boolean} isDeveloperMode} onCompletion
+ */
+CloudEftposSDK.prototype.isDeveloperMode = function(onCompletion) {
+  onCompletion    = typeof onCompletion !== 'undefined' ? onCompletion : function() {};
+  exec(function() { onCompletion(true); },
+       function() { onCompletion(false); },
+       "CloudEftposGap",
+       "isDeveloperMode",
+       []);
+}
+
+/*!
+ *  Verifies that the current user is authorised
+ *  @param {function({boolean} isAuthorised} onCompletion
+ */
+CloudEftposSDK.prototype.isAuthorised = function(onCompletion) {
+  onCompletion    = typeof onCompletion !== 'undefined' ? onCompletion : function() {};
+  exec(function() { onCompletion(true); },
+       function() { onCompletion(false); },
+       "CloudEftposGap",
+       "isAuthorised",
+       []);
+}
+
+/*!
+ *  Deauthorise the current user
+ */
+CloudEftposSDK.prototype.deauthorise = function() {
+  exec(null,
+       null,
+       "CloudEftposGap",
+       "deauthorise",
+       []);
 }
 
 /**

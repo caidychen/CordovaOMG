@@ -28,6 +28,63 @@
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 }
 
+-(void)isJailBroken:(CDVInvokedUrlCommand *)command{
+    BOOL isJailBroken = [CloudEftpos isJailBroken];
+    CDVPluginResult *pluginResult = [CDVPluginResult resultWithStatus:isJailBroken ? CDVCommandStatus_OK : CDVCommandStatus_ERROR];
+    [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
+}
+
+-(void)setHostRegion:(CDVInvokedUrlCommand *)command{
+    NSString *regionCode = [self unwrapNSNull:[command.arguments objectAtIndex:0]];
+    [[CloudEftpos sharedInstance] setHostRegion:regionCode];
+    CDVPluginResult *pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
+    [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
+}
+
+-(void)connectDevice:(CDVInvokedUrlCommand *)command{
+    [[CloudEftpos sharedInstance] connectDevice];
+    CDVPluginResult *pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
+    [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
+}
+
+-(void)disconnectDevice:(CDVInvokedUrlCommand *)command{
+    BOOL success = [[CloudEftpos sharedInstance] disconnectDevice];
+    CDVPluginResult *pluginResult = [CDVPluginResult resultWithStatus:success ? CDVCommandStatus_OK : CDVCommandStatus_ERROR];
+    [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
+}
+
+-(void)setSupportedPaymentTerminals:(CDVInvokedUrlCommand *)command{
+    NSArray *terminalCodes = [self unwrapNSNull:command.arguments];
+    [[CloudEftpos sharedInstance] setSupportedPaymentTerminals:terminalCodes];
+    CDVPluginResult *pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
+    [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
+}
+
+-(void)addSupportedPaymentTerminals:(CDVInvokedUrlCommand *)command{
+    NSString *terminalCode = [self unwrapNSNull:[command.arguments objectAtIndex:0]];
+    [[CloudEftpos sharedInstance] addSupportedPaymentTerminal:terminalCode];
+    CDVPluginResult *pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
+    [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
+}
+
+-(void)isDeveloperMode:(CDVInvokedUrlCommand *)command{
+    BOOL developerMode = [[CloudEftpos sharedInstance] isDeveloperMode];
+    CDVPluginResult *pluginResult = [CDVPluginResult resultWithStatus:developerMode ? CDVCommandStatus_OK : CDVCommandStatus_ERROR];
+    [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
+}
+
+-(void)isAuthorised:(CDVInvokedUrlCommand *)command{
+    BOOL authorised = [[CloudEftpos sharedInstance] isAuthorised];
+    CDVPluginResult *pluginResult = [CDVPluginResult resultWithStatus: authorised ? CDVCommandStatus_OK : CDVCommandStatus_ERROR];
+    [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
+}
+
+-(void)deauthorise:(CDVInvokedUrlCommand *)command{
+    [[CloudEftpos sharedInstance] deauthorise];
+    CDVPluginResult *pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
+    [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
+}
+
 -(void)verifyCredentials:(CDVInvokedUrlCommand *)command{
     NSString * email = [self unwrapNSNull:[command.arguments objectAtIndex:0]];
     NSString * password = [self unwrapNSNull:[command.arguments objectAtIndex:1]];
