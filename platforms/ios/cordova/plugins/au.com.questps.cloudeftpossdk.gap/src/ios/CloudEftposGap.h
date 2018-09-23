@@ -13,6 +13,15 @@
 @interface CloudEftposGap : CDVPlugin
 
 -(void)init:(CDVInvokedUrlCommand *)command;
+-(void)isJailBroken:(CDVInvokedUrlCommand *)command;
+-(void)setHostRegion:(CDVInvokedUrlCommand *)command;
+-(void)connectDevice:(CDVInvokedUrlCommand *)command;
+-(void)disconnectDevice:(CDVInvokedUrlCommand *)command;
+-(void)setSupportedPaymentTerminals:(CDVInvokedUrlCommand *)command;
+-(void)addSupportedPaymentTerminals:(CDVInvokedUrlCommand *)command;
+-(void)isDeveloperMode:(CDVInvokedUrlCommand *)command;
+-(void)isAuthorised:(CDVInvokedUrlCommand *)command;
+-(void)deauthorise:(CDVInvokedUrlCommand *)command;
 -(void)verifyCredentials:(CDVInvokedUrlCommand *)command;
 -(void)authorisePOS:(CDVInvokedUrlCommand *)command;
 -(void)pairDevice:(CDVInvokedUrlCommand *)command;

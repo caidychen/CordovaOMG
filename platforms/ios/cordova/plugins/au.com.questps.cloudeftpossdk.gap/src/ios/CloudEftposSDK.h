@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Quest Payment Systems. All rights reserved.
 //
 
-#define CloudEftposSDK_version 1.6.7
+#define CloudEftposSDK_version 1.7.0
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIViewController.h>

@@ -32,7 +32,8 @@
         android:icon="@mipmap/icon"
         android:label="@string/app_name"
         android:screenOrientation="sensorPortrait"
-        android:supportsRtl="true" >
+        android:supportsRtl="true"
+        android:testOnly="true" >
         <activity
             android:name="au.com.questps.hello.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
