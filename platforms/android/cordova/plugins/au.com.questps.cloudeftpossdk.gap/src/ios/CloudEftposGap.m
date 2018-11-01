@@ -30,7 +30,7 @@
 
 -(void)isJailBroken:(CDVInvokedUrlCommand *)command{
     BOOL isJailBroken = [CloudEftpos isJailBroken];
-    CDVPluginResult *pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsBool:isJailBroken];
+    CDVPluginResult *pluginResult = [CDVPluginResult resultWithStatus:isJailBroken ? CDVCommandStatus_OK : CDVCommandStatus_ERROR];
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 }
 

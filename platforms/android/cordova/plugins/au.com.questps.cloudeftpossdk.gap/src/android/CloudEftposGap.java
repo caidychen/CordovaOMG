@@ -35,6 +35,8 @@ import com.questps.cloudeftpossdk.messages.TransactionCompleted;
 import com.questps.cloudeftpossdk.messages.TransactionRequest;
 import com.questps.cloudeftpossdk.messages.UpdateCompleted;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 public class CloudEftposGap extends CordovaPlugin {
@@ -67,6 +69,41 @@ public class CloudEftposGap extends CordovaPlugin {
         }
         if (cloudEftpos == null)
             return false;
+        if (action.equals("setHostRegion")) {
+            this.setHostRegion(args.getString(0), callbackContext);
+            return true;
+        }
+
+        if (action.equals("connectDevice")) {
+            this.connectDevice(callbackContext);
+            return true;
+        }
+
+        if (action.equals("disconnectDevice")) {
+            this.disconnectDevice(callbackContext);
+            return true;
+        }
+
+        if (action.equals("setSupportedPaymentTerminals")) {
+            this.setSupportedPaymentTerminals(args, callbackContext);
+            return true;
+        }
+
+        if (action.equals("addSupportedPaymentTerminal")) {
+            this.addSupportedPaymentTerminal(args.getString(0), callbackContext);
+            return true;
+        }
+
+        if (action.equals("isAuthorised")) {
+            this.isAuthorised(callbackContext);
+            return true;
+        }
+
+        if (action.equals("deauthorise")) {
+            this.deauthorise(callbackContext);
+            return true;
+        }
+
         if (action.equals("setAndroidTheme")) {
             this.setAndroidTheme(args.getString(0), callbackContext);
             return true;
@@ -144,6 +181,90 @@ public class CloudEftposGap extends CordovaPlugin {
                         callbackContext.success();
                     }
                 });
+            }
+        });
+    }
+
+    private void setHostRegion(final String regionCode, final CallbackContext callbackContext) {
+        cordova.getActivity().runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                cloudEftpos.SetHostRegion(regionCode);
+                callbackContext.success();
+            }
+        });
+    }
+
+    private void connectDevice(final CallbackContext callbackContext) {
+        cordova.getActivity().runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                cloudEftpos.ConnectDevice();
+                callbackContext.success();
+            }
+        });
+    }
+
+    private void disconnectDevice(final CallbackContext callbackContext) {
+        cordova.getActivity().runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                Boolean success = cloudEftpos.DisconnectDevice();
+                PluginResult.Status status = success ? PluginResult.Status.OK : PluginResult.Status.ERROR;
+                PluginResult pluginResult = new PluginResult(status);
+                callbackContext.sendPluginResult(pluginResult);
+            }
+        });
+    }
+
+    private void setSupportedPaymentTerminals(final JSONArray terminalCodes, final CallbackContext callbackContext) {
+        cordova.getActivity().runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                ArrayList<String> list = new ArrayList<String>();
+                if (terminalCodes != null) {
+                    int len = terminalCodes.length();
+                    for (int i = 0; i < len; i++) {
+                        try {
+                            list.add(terminalCodes.getString(i));
+                        } catch (JSONException e) {
+                        }
+                    }
+                }
+                cloudEftpos.SetSupportedPaymentTerminals(list);
+                callbackContext.success();
+            }
+        });
+    }
+
+    private void addSupportedPaymentTerminal(final String terminalCode, final CallbackContext callbackContext) {
+        cordova.getActivity().runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                cloudEftpos.AddSupportedPaymentTerminal(terminalCode);
+                callbackContext.success();
+            }
+        });
+    }
+
+    private void isAuthorised(final CallbackContext callbackContext) {
+        cordova.getActivity().runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                Boolean isAuthorised = cloudEftpos.IsAuthenticated();
+                PluginResult.Status status = isAuthorised ? PluginResult.Status.OK : PluginResult.Status.ERROR;
+                PluginResult pluginResult = new PluginResult(status);
+                callbackContext.sendPluginResult(pluginResult);
+            }
+        });
+    }
+
+    private void deauthorise(final CallbackContext callbackContext) {
+        cordova.getActivity().runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                cloudEftpos.Deauthorise();
+                callbackContext.success();
             }
         });
     }

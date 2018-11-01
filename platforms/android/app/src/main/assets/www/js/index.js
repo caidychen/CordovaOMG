@@ -28,6 +28,14 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
+
+        var sdk = new cloudeftpos.CloudEftposSDK(false, function() {
+          console.log("SDK Loaded.");
+
+        });
+
+        window.sdk = sdk;
+         sdk.promptResponse('yes');
     },
 
     // Update DOM on a Received Event

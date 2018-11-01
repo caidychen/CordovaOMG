@@ -30,7 +30,7 @@
         <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
         <source-file src="src/android/CloudEftposGap.java" target-dir="src/au/com/questps/cloudeftpossdk" />
-        <source-file src="src/android/CloudEftposSDK-1.4.2.aar" target-dir="libs" />
+        <source-file src="src/android/CloudEftposSDK-1.7.1.aar" target-dir="libs" />
     </platform>
 
     <!-- ios -->

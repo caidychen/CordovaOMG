@@ -28,6 +28,8 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
+        alert("Alert");
+        sdk.promptResponse('yes');
     },
 
     // Update DOM on a Received Event

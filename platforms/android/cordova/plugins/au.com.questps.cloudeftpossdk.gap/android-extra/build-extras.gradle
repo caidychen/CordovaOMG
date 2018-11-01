@@ -13,7 +13,7 @@ android{
 }
 dependencies {
     compile project(':CordovaLib')
-    compile(name: 'CloudEftposSDK-1.4.2', ext: 'aar')
+    compile(name: 'CloudEftposSDK-1.7.1', ext: 'aar')
     compile 'com.android.support:support-v4:21.+'
     compile 'com.android.support:appcompat-v7:21.+'
     compile 'com.google.code.gson:gson:2.2.+'

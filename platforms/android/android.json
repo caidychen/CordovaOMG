@@ -11,6 +11,10 @@
             {
               "xml": "<feature name=\"Battery\"><param name=\"android-package\" value=\"org.apache.cordova.batterystatus.BatteryListener\" /></feature>",
               "count": 1
+            },
+            {
+              "xml": "<feature name=\"CloudEftposGap\"><param name=\"android-package\" value=\"au.com.questps.cloudeftpossdk.CloudEftposGap\" /></feature>",
+              "count": 1
             }
           ]
         }
@@ -19,6 +23,9 @@
   },
   "installed_plugins": {
     "cordova-plugin-battery-status": {
+      "PACKAGE_NAME": "au.com.questps.hello"
+    },
+    "au.com.questps.cloudeftpossdk.gap": {
       "PACKAGE_NAME": "au.com.questps.hello"
     }
   },
@@ -31,9 +38,18 @@
       "clobbers": [
         "navigator.battery"
       ]
+    },
+    {
+      "id": "au.com.questps.cloudeftpossdk.gap.cloudeftpossdk",
+      "file": "plugins/au.com.questps.cloudeftpossdk.gap/www/cloudeftpos.js",
+      "pluginId": "au.com.questps.cloudeftpossdk.gap",
+      "clobbers": [
+        "cloudeftpos"
+      ]
     }
   ],
   "plugin_metadata": {
-    "cordova-plugin-battery-status": "2.0.2"
+    "cordova-plugin-battery-status": "2.0.2",
+    "au.com.questps.cloudeftpossdk.gap": "1.0.0"
   }
 }

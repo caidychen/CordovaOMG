@@ -20,4 +20,7 @@
     <feature name="Battery">
         <param name="android-package" value="org.apache.cordova.batterystatus.BatteryListener" />
     </feature>
+    <feature name="CloudEftposGap">
+        <param name="android-package" value="au.com.questps.cloudeftpossdk.CloudEftposGap" />
+    </feature>
 </widget>

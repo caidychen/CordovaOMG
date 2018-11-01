@@ -1,4 +1,5 @@
 cordova.define("au.com.questps.cloudeftpossdk.gap.cloudeftpossdk", function(require, exports, module) {
+
 var exec = require('cordova/exec');
 var cordova = require('cordova');
 
@@ -14,7 +15,6 @@ function TransactionRequest(transactionType, posReference, amount) {
 TransactionRequest.PURCHASE = 1;
 TransactionRequest.REFUND = 2;
 
-Array.prototype.isArray = true;
 /**
  * Initialises the Cloud EFTPOS SDK
  * @param {boolean} productionMode - Set the SDK to production mode
@@ -34,14 +34,17 @@ function CloudEftposSDK(productionMode, onSDKLoaded) {
 
 /**
  *  Verifies that user's iOS Device is JailBroken
+ *  @param {function({boolean} isJailBroken)} onCompletion
+ *  - False if user's deivce has not been jailbroken, otherwise true
  */
-CloudEftposSDK.prototype.isJailBroken = function(){
-  exec(null,
-       null,
-       "CloudEftposGap",
-       "isJailBroken",
-       []);
-}
+// CloudEftposSDK.prototype.isJailBroken = function(onCompletion){
+//   onCompletion    = typeof onCompletion !== 'undefined' ? onCompletion : function() {};
+//   exec(function() { onCompletion(true); },
+//        function() { onCompletion(false); },
+//        "CloudEftposGap",
+//        "isJailBroken",
+//        []);
+// }
 
 /**
  *  Sets the host of the SDK to use the specified region code.
@@ -75,13 +78,13 @@ CloudEftposSDK.prototype.connectDevice = function() {
 /*!
  *  Disconnects the device without unpairing it. Automatic
  *  device discovery will be disabled until connectDevice is called.
- *  @param {function({boolean} success, {string} error)} onCompletion
+ *  @param {function({boolean} success)} onCompletion
  *  - False if there was no device connected, otherwise true
  */
 CloudEftposSDK.prototype.disconnectDevice = function(onCompletion) {
   onCompletion    = typeof onCompletion !== 'undefined' ? onCompletion : function() {};
-  exec(function(result) { onCompletion(true, null); },
-       function(error) { onCompletion(false, error); },
+  exec(function() { onCompletion(true); },
+       function() { onCompletion(false); },
        "CloudEftposGap",
        "disconnectDevice",
        []);
@@ -93,7 +96,7 @@ CloudEftposSDK.prototype.disconnectDevice = function(onCompletion) {
  *  @param terminalCodes The available terminals by code.
  */
 CloudEftposSDK.prototype.setSupportedPaymentTerminals = function(terminalCodes) {
-  terminalCodes = terminalCodes.isArray ? terminalCodes : []
+  terminalCodes = Array.isArray(terminalCodes) ? terminalCodes : []
   exec(null,
        null,
        "CloudEftposGap",
@@ -106,35 +109,35 @@ CloudEftposSDK.prototype.setSupportedPaymentTerminals = function(terminalCodes) 
  *  terminals.
  *  @param terminalCode The terminal code.
  */
-CloudEftposSDK.prototype.addSupportedPaymentTerminals = function(terminalCode) {
+CloudEftposSDK.prototype.addSupportedPaymentTerminal = function(terminalCode) {
   exec(null,
        null,
        "CloudEftposGap",
-       "addSupportedPaymentTerminals",
+       "addSupportedPaymentTerminal",
        [terminalCode]);
 }
 
 /*!
  *  Verifies that SDK is running in Developer Mode
- *  @param {function({boolean} success, {string} error)} onCompletion
+ *  @param {function({boolean} isDeveloperMode} onCompletion
  */
-CloudEftposSDK.prototype.isDeveloperMode = function(onCompletion) {
-  onCompletion    = typeof onCompletion !== 'undefined' ? onCompletion : function() {};
-  exec(function(result) { onCompletion(true, null); },
-       function(error) { onCompletion(false, error); },
-       "CloudEftposGap",
-       "isDeveloperMode",
-       []);
-}
+// CloudEftposSDK.prototype.isDeveloperMode = function(onCompletion) {
+//   onCompletion    = typeof onCompletion !== 'undefined' ? onCompletion : function() {};
+//   exec(function() { onCompletion(true); },
+//        function() { onCompletion(false); },
+//        "CloudEftposGap",
+//        "isDeveloperMode",
+//        []);
+// }
 
 /*!
  *  Verifies that the current user is authorised
- *  @param {function({boolean} success, {string} error)} onCompletion
+ *  @param {function({boolean} isAuthorised} onCompletion
  */
 CloudEftposSDK.prototype.isAuthorised = function(onCompletion) {
   onCompletion    = typeof onCompletion !== 'undefined' ? onCompletion : function() {};
-  exec(function(result) { onCompletion(true, null); },
-       function(error) { onCompletion(false, error); },
+  exec(function() { onCompletion(true); },
+       function() { onCompletion(false); },
        "CloudEftposGap",
        "isAuthorised",
        []);
@@ -544,5 +547,5 @@ module.exports = {
     CloudEftposSDK: CloudEftposSDK
 };
 
-});
 
+});

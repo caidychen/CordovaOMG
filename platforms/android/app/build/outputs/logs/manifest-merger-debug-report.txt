@@ -4,19 +4,19 @@ ADDED from /Users/kdchen/CordovaOMG/platforms/android/app/src/main/AndroidManife
 INJECTED from /Users/kdchen/CordovaOMG/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
 INJECTED from /Users/kdchen/CordovaOMG/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
 INJECTED from /Users/kdchen/CordovaOMG/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
-MERGED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:2:1-106:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/da797e0bc48fb32a3cd75d5e35b37860/AndroidManifest.xml:17:1-22:12
-MERGED from [:CordovaLib] /Users/kdchen/CordovaOMG/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:1-27:12
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/a2ba060d17731f648a66abb1222dc1bc/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/721830da5593f758cc5aedba159af7df/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/a9bb0aa9843a9e2608d6129378c05750/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/c0840f176312ce41e2aedae75aefc34a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/1504ad74a12f85628198947974830cb0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/b6335230664d1b85228e243372134274/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/b132373a71b467b0c787ff584ec3d13b/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/bb8fb17f9840286ef8d775070ca89d04/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/575c526ce14dc2c4958f8fa09c2afbb1/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/edf56997760a0de15bb3c8f8fbef2b87/AndroidManifest.xml:17:1-22:12
+MERGED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:2:1-106:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/a6d57d2ec2fd0a5a021408169c7321f7/AndroidManifest.xml:17:1-22:12
+MERGED from [:CordovaLib] /Users/kdchen/CordovaOMG/platforms/android/CordovaLib/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:20:1-27:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/e9b29b0bad8095b36f57424ccf83e86b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/2b1f656043efe038338fc6241abbc1ef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/cd66472f81ac53c958324d7a9dcbe59a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/5d577ce608e373466eed98ce6f332b3b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/212f8399024e6595927c7233f3fd1fe1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/9983355164f5329d106a31f27a38815b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/9a7b4ba8abf6202ae2c0cb0e9b50dc0c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/f0e4eb945226549047de0b454a4f2b3e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4da3f42b5bbccea20b54148728ac5ac1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/250035e8802fdc36690e47f3b570c22a/AndroidManifest.xml:17:1-22:12
 INJECTED from /Users/kdchen/CordovaOMG/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
 INJECTED from /Users/kdchen/CordovaOMG/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
 INJECTED from /Users/kdchen/CordovaOMG/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
@@ -52,16 +52,16 @@ ADDED from /Users/kdchen/CordovaOMG/platforms/android/app/src/main/AndroidManife
 		ADDED from /Users/kdchen/CordovaOMG/platforms/android/app/src/main/AndroidManifest.xml:3:23-48
 uses-permission#android.permission.INTERNET
 ADDED from /Users/kdchen/CordovaOMG/platforms/android/app/src/main/AndroidManifest.xml:4:5-67
-MERGED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:15:5-67
-MERGED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:15:5-67
+MERGED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:15:5-67
+MERGED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:15:5-67
 	android:name
 		ADDED from /Users/kdchen/CordovaOMG/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
 application
 ADDED from /Users/kdchen/CordovaOMG/platforms/android/app/src/main/AndroidManifest.xml:5:5-12:19
-MERGED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:19:5-104:19
-MERGED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:19:5-104:19
+MERGED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:19:5-104:19
+MERGED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:19:5-104:19
 	android:screenOrientation
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:22:9-51
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:22:9-51
 	android:supportsRtl
 		ADDED from /Users/kdchen/CordovaOMG/platforms/android/app/src/main/AndroidManifest.xml:5:114-140
 	android:label
@@ -69,7 +69,7 @@ MERGED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gr
 	android:hardwareAccelerated
 		ADDED from /Users/kdchen/CordovaOMG/platforms/android/app/src/main/AndroidManifest.xml:5:18-52
 	android:allowBackup
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:20:9-35
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:20:9-35
 	android:icon
 		ADDED from /Users/kdchen/CordovaOMG/platforms/android/app/src/main/AndroidManifest.xml:5:53-80
 activity#au.com.questps.hello.MainActivity
@@ -100,211 +100,211 @@ ADDED from /Users/kdchen/CordovaOMG/platforms/android/app/src/main/AndroidManife
 		ADDED from /Users/kdchen/CordovaOMG/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
 uses-sdk
 ADDED from /Users/kdchen/CordovaOMG/platforms/android/app/src/main/AndroidManifest.xml:13:5-74
-MERGED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:7:5-9:41
-MERGED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/da797e0bc48fb32a3cd75d5e35b37860/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/da797e0bc48fb32a3cd75d5e35b37860/AndroidManifest.xml:20:5-44
-MERGED from [:CordovaLib] /Users/kdchen/CordovaOMG/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
-MERGED from [:CordovaLib] /Users/kdchen/CordovaOMG/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/a2ba060d17731f648a66abb1222dc1bc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/a2ba060d17731f648a66abb1222dc1bc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/721830da5593f758cc5aedba159af7df/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/721830da5593f758cc5aedba159af7df/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/a9bb0aa9843a9e2608d6129378c05750/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/a9bb0aa9843a9e2608d6129378c05750/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/c0840f176312ce41e2aedae75aefc34a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/c0840f176312ce41e2aedae75aefc34a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/1504ad74a12f85628198947974830cb0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/1504ad74a12f85628198947974830cb0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/b6335230664d1b85228e243372134274/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/b6335230664d1b85228e243372134274/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/b132373a71b467b0c787ff584ec3d13b/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/b132373a71b467b0c787ff584ec3d13b/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/bb8fb17f9840286ef8d775070ca89d04/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/bb8fb17f9840286ef8d775070ca89d04/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/575c526ce14dc2c4958f8fa09c2afbb1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/575c526ce14dc2c4958f8fa09c2afbb1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/edf56997760a0de15bb3c8f8fbef2b87/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/edf56997760a0de15bb3c8f8fbef2b87/AndroidManifest.xml:20:5-44
+MERGED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:7:5-9:41
+MERGED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/a6d57d2ec2fd0a5a021408169c7321f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/a6d57d2ec2fd0a5a021408169c7321f7/AndroidManifest.xml:20:5-44
+MERGED from [:CordovaLib] /Users/kdchen/CordovaOMG/platforms/android/CordovaLib/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] /Users/kdchen/CordovaOMG/platforms/android/CordovaLib/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:25:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/e9b29b0bad8095b36f57424ccf83e86b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/e9b29b0bad8095b36f57424ccf83e86b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/2b1f656043efe038338fc6241abbc1ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/2b1f656043efe038338fc6241abbc1ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/cd66472f81ac53c958324d7a9dcbe59a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/cd66472f81ac53c958324d7a9dcbe59a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/5d577ce608e373466eed98ce6f332b3b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/5d577ce608e373466eed98ce6f332b3b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/212f8399024e6595927c7233f3fd1fe1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/212f8399024e6595927c7233f3fd1fe1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/9983355164f5329d106a31f27a38815b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/9983355164f5329d106a31f27a38815b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/9a7b4ba8abf6202ae2c0cb0e9b50dc0c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/9a7b4ba8abf6202ae2c0cb0e9b50dc0c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/f0e4eb945226549047de0b454a4f2b3e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/f0e4eb945226549047de0b454a4f2b3e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4da3f42b5bbccea20b54148728ac5ac1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4da3f42b5bbccea20b54148728ac5ac1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/250035e8802fdc36690e47f3b570c22a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/250035e8802fdc36690e47f3b570c22a/AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
 		ADDED from /Users/kdchen/CordovaOMG/platforms/android/app/src/main/AndroidManifest.xml:13:42-71
 	android:minSdkVersion
 		ADDED from /Users/kdchen/CordovaOMG/platforms/android/app/src/main/AndroidManifest.xml:13:15-41
 uses-permission#android.permission.BLUETOOTH
-ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:11:5-68
+ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:11:5-68
 	android:name
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:11:22-65
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:11:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:12:5-74
+ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:12:5-74
 	android:name
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:12:22-71
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:12:22-71
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:13:5-81
+ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:13:5-81
 	android:name
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:13:22-78
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:13:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:14:5-80
+ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:14:5-80
 	android:name
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:14:22-77
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:14:22-77
 uses-feature#android.hardware.bluetooth
-ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:17:5-63
+ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:17:5-63
 	android:name
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:17:19-60
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:17:19-60
 activity#com.questps.cloudeftpossdk.AdvancedMenu
-ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:23:9-29:60
+ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:23:9-29:60
 	android:screenOrientation
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:28:13-55
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:28:13-55
 	android:clearTaskOnLaunch
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:25:13-45
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:25:13-45
 	android:label
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:27:13-42
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:27:13-42
 	android:configChanges
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:26:13-63
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:26:13-63
 	android:theme
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:29:13-57
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:29:13-57
 	android:name
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:24:13-67
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:24:13-67
 activity#com.questps.cloudeftpossdk.Diagnostics
-ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:30:9-36:60
+ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:30:9-36:60
 	android:screenOrientation
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:35:13-55
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:35:13-55
 	android:clearTaskOnLaunch
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:32:13-45
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:32:13-45
 	android:label
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:34:13-48
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:34:13-48
 	android:configChanges
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:33:13-63
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:33:13-63
 	android:theme
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:36:13-57
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:36:13-57
 	android:name
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:31:13-66
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:31:13-66
 activity#com.questps.cloudeftpossdk.TenderActivity
-ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:37:9-41:52
+ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:37:9-41:52
 	android:screenOrientation
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:40:13-55
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:40:13-55
 	android:configChanges
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:39:13-63
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:39:13-63
 	android:theme
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:41:13-49
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:41:13-49
 	android:name
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:38:13-69
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:38:13-69
 activity#com.questps.cloudeftpossdk.DarkTenderActivity
-ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:42:9-46:58
+ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:42:9-46:58
 	android:screenOrientation
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:45:13-55
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:45:13-55
 	android:configChanges
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:44:13-63
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:44:13-63
 	android:theme
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:46:13-55
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:46:13-55
 	android:name
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:43:13-73
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:43:13-73
 activity#com.questps.cloudeftpossdk.ModernTenderActivity
-ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:47:9-51:56
+ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:47:9-51:56
 	android:screenOrientation
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:50:13-55
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:50:13-55
 	android:configChanges
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:49:13-63
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:49:13-63
 	android:theme
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:51:13-53
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:51:13-53
 	android:name
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:48:13-75
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:48:13-75
 activity#com.questps.cloudeftpossdk.TransactionRecovery
-ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:52:9-57:52
+ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:52:9-57:52
 	android:screenOrientation
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:56:13-55
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:56:13-55
 	android:label
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:55:13-63
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:55:13-63
 	android:configChanges
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:54:13-63
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:54:13-63
 	android:theme
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:57:13-49
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:57:13-49
 	android:name
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:53:13-74
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:53:13-74
 activity#com.questps.cloudeftpossdk.UpdateActivity
-ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:58:9-63:60
+ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:58:9-63:60
 	android:screenOrientation
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:62:13-55
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:62:13-55
 	android:label
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:61:13-53
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:61:13-53
 	android:configChanges
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:60:13-63
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:60:13-63
 	android:theme
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:63:13-57
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:63:13-57
 	android:name
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:59:13-69
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:59:13-69
 activity#com.questps.cloudeftpossdk.DeviceListActivityLE
-ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:64:9-70:60
+ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:64:9-70:60
 	android:screenOrientation
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:69:13-55
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:69:13-55
 	android:label
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:67:13-49
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:67:13-49
 	android:launchMode
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:68:13-43
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:68:13-43
 	android:configChanges
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:66:13-63
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:66:13-63
 	android:theme
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:70:13-57
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:70:13-57
 	android:name
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:65:13-75
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:65:13-75
 activity#com.questps.cloudeftpossdk.LegacyDeviceListActivity
-ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:71:9-77:60
+ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:71:9-77:60
 	android:screenOrientation
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:76:13-55
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:76:13-55
 	android:label
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:74:13-49
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:74:13-49
 	android:launchMode
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:75:13-43
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:75:13-43
 	android:configChanges
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:73:13-63
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:73:13-63
 	android:theme
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:77:13-57
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:77:13-57
 	android:name
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:72:13-79
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:72:13-79
 activity#com.questps.cloudeftpossdk.CaptureSignature
-ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:78:9-83:60
+ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:78:9-83:60
 	android:screenOrientation
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:82:13-56
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:82:13-56
 	android:label
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:81:13-53
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:81:13-53
 	android:configChanges
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:80:13-63
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:80:13-63
 	android:theme
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:83:13-57
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:83:13-57
 	android:name
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:79:13-71
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:79:13-71
 activity#com.questps.cloudeftpossdk.LogonActivity
-ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:84:9-89:60
+ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:84:9-89:60
 	android:screenOrientation
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:88:13-55
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:88:13-55
 	android:label
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:87:13-42
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:87:13-42
 	android:configChanges
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:86:13-63
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:86:13-63
 	android:theme
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:89:13-57
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:89:13-57
 	android:name
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:85:13-68
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:85:13-68
 activity#com.questps.cloudeftpossdk.LoopbackTest
-ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:90:9-99:20
+ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:90:9-99:20
 	android:screenOrientation
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:94:13-55
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:94:13-55
 	android:label
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:93:13-65
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:93:13-65
 	android:configChanges
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:92:13-63
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:92:13-63
 	android:theme
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:95:13-57
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:95:13-57
 	android:name
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:91:13-67
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:91:13-67
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:96:13-98:47
+ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:96:13-98:47
 	android:value
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:98:17-44
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:98:17-44
 	android:name
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:97:17-63
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:97:17-63
 service#com.questps.cloudeftpossdk.SPPLEService
-ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:101:9-103:38
+ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:101:9-103:38
 	android:enabled
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:103:13-35
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:103:13-35
 	android:name
-		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/AndroidManifest.xml:102:13-67
+		ADDED from [com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9:] /Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/AndroidManifest.xml:102:13-67

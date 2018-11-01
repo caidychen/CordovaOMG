@@ -4,7 +4,7 @@
             "outputFile": "/Users/kdchen/CordovaOMG/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/eab18c677c04f15aeab68c40dac50379/res/values-w820dp-v13/values-w820dp-v13.xml",
+                    "source": "/Users/kdchen/.gradle/caches/transforms-1/files-1.1/CloudEftposSDK-1.6.9.aar/5a508f17e2480bcd49caca285fee2f76/res/values-w820dp-v13/values-w820dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -4,7 +4,7 @@
             "outputFile": "/Users/kdchen/CordovaOMG/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/kdchen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/da797e0bc48fb32a3cd75d5e35b37860/res/values-night-v8/values-night-v8.xml",
+                    "source": "/Users/kdchen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/a6d57d2ec2fd0a5a021408169c7321f7/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

@@ -137,7 +137,7 @@ public class CloudEftposGap extends CordovaPlugin {
             return true;
         }
         if (action.equals("promptResponse")) {
-            this.promptResponse(args.getString(0), args.getString(1), callbackContext);
+            this.promptResponse(args.getString(0), getNullableStringForIndex(args, 1), callbackContext);
             return true;
         }
         if (action.equals("cancelTransaction")) {
@@ -639,5 +639,13 @@ public class CloudEftposGap extends CordovaPlugin {
             }
         });
     }
-
+    private String getNullableStringForIndex(JSONArray jsonArray,int index) throws JSONException{
+        Object nullable = jsonArray.get(index);
+        if(nullable == null || JSONObject.NULL.equals(nullable)){
+            return null;
+        }
+        else {
+            return jsonArray.getString(index);
+        }
+    }
 }

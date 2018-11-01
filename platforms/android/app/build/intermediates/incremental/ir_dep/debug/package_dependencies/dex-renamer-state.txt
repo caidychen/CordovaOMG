@@ -1,4 +1,4 @@
-#Thu Sep 20 14:56:00 AEST 2018
-base.0=/Users/kdchen/CordovaOMG/platforms/android/app/build/intermediates/transforms/dexMerger/debug/11
+#Wed Oct 24 09:24:31 AEDT 2018
+base.0=/Users/kdchen/CordovaOMG/platforms/android/app/build/intermediates/transforms/dexMerger/debug/10
 path.0=classes.dex
 renamed.0=classes.dex

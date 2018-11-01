@@ -31,7 +31,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.1.4'
+        classpath 'com.android.tools.build:gradle:3.2.0'
     }
 }
 
@@ -266,6 +266,12 @@ dependencies {
     implementation 'com.questps.cloudeftpossdk:CloudEftposSDK-1.6.9@aar'
 
     implementation "com.android.support:appcompat-v7:27.1.1"
+    implementation 'org.slf4j:slf4j-api:1.7.25'
+    implementation('com.github.tony19:logback-android-classic:1.1.1-6') {
+        // workaround issue #73
+        exclude group: 'com.google.android', module: 'android'
+    }
+
     implementation(project(path: ":CordovaLib"))
     // SUB-PROJECT DEPENDENCIES END
 
